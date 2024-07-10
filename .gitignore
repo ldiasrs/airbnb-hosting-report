@@ -1,0 +1,5 @@
+node_modules
+data
+uploads
+gloal-config.prod.json
+.DS_Store
