@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "vercel dev",
     "build": "echo building",
     "dev": "nodemon index.cjs"
   },
