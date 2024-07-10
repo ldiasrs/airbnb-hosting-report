@@ -14,6 +14,10 @@ const upload = multer({ dest: "uploads/" }); // Adjust 'uploads/' if needed
 // Serve static files from the root directory
 app.use(express.static(rootDir));
 
+app.get("/", (req, res) => {
+  res.redirect("/report.html");
+});
+
 app.post("/report", upload.single("report"), async (req, res) => {
   const { originalname, filename, path } = req.file;
   console.log("Received file:", originalname, filename, path);
