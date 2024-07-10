@@ -3,3 +3,4 @@ data
 uploads
 gloal-config.prod.json
 .DS_Store
+.vercel
