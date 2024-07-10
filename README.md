@@ -1,1 +1,1 @@
-# aribnb-hosting-report
+# airbnb-hosting-report
